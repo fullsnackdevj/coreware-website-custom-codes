@@ -78,6 +78,11 @@
     height: 24px;
   }
 
+  .bigText {
+    font-size: unset !important;
+    font-weight: unset !important;
+  }
+
   /* Responsive design */
   @media (max-width: 767px) {
     .footer-container {
@@ -166,16 +171,18 @@
         <li><a href="tobacco-manufacturer">Manufacturer</a></li>
         <li><a href="tobacco-distributor">Distributor / Wholesaler</a></li>
       </ul>
-      <h4>
-        <ul>
-          <li><a href="pawn">Pawn Shop</a></li>
-        </ul>
-      </h4>
-      <h4>
-        <ul>
-          <li><a href="general-retail">General Retail</a></li>
-        </ul>
-      </h4>
+      <div class="footer-column">
+        <h4>
+          <ul>
+            <li><a class="bigText" href="pawn">Pawn Shop</a></li>
+          </ul>
+        </h4>
+        <h4>
+          <ul>
+            <li><a class="bigText" href="general-retail">General Retail</a></li>
+          </ul>
+        </h4>
+      </div>
       <br />
       <h4>Resources</h4>
       <ul>
@@ -194,6 +201,20 @@
         <li><a href="tel:+18289001500">(828) 900-1500</a></li>
       </ul>
       <br />
+
+      <h4>Customer Care</h4>
+      <ul>
+        <li>
+          <a href="https://care.coreware.com/" target="_blank">Help Center</a>
+        </li>
+        <li>
+          <a href="https://coreu.coreware.com/" target="_blank"
+            >Core University</a
+          >
+        </li>
+      </ul>
+      <br />
+
       <h4>About Coreware</h4>
       <ul>
         <li><a href="about-us">About Us</a></li>
