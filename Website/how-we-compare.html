@@ -1,0 +1,781 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-ABC123" crossorigin="anonymous" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+
+
+<style>
+  /* Increase font size */
+  th{
+    font-size: 1.3rem;
+  }
+  
+   td {
+    font-size: 1.1rem;
+  }
+  /* Adjust table width */
+  .container-fluid {
+    width: 100%;
+    max-width: 1500px; /* Adjust this value as needed */
+  }
+
+    /* Green color for check icon */
+    .check-icon {
+      color: #0e6e6c;
+      font-size: 1.5rem;
+    }
+
+    /* Red color for X icon */
+    .x-icon {
+        color: #ff3b00;
+        font-size: 1.5rem;
+    }
+</style>
+</head>
+<body>
+<div class="container-fluid" style="margin-top:10px;">
+  <div class="table-responsive">
+    <table id="table1" class="standAlone table table-striped table-bordered" style="width:100%">
+      <thead>
+        <tr>
+          <th>Set Up Fee & Monthly Costs</th>
+          <th>CF Basic</th>
+          <th>CF Standard</th>
+          <th>CF Advanced</th>
+          <th>AmmoReady</th>
+          <th>Gearfire Pro</th>
+          <th>Gearfire Essentials</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr>
+            <td><strong>Integrated Distributors</strong></td>
+            <td><strong>4</strong></td>
+            <td><strong>Up to 18</strong></td>
+            <td><strong>Up to 18</strong></td>
+            <td>6</td>
+            <td>0</td>
+            <td>13</td>
+          </tr>
+
+        <tr>
+          <td>Set Up Fee</td>
+          <td>$500</td>
+          <td>$500</td>
+          <td>$2500*</td>
+          <td>$750</td>
+          <td>$500</td>
+          <td>$500</td>
+        </tr>
+        <tr>
+          <td>Subscription Per Month</td>
+          <td>$129</td>
+          <td>$199</td>
+          <td>$599</td>
+          <td>$99</td>
+          <td>$249</td>
+          <td>$150</td>
+        </tr>
+
+        
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="container-fluid" style="margin-top:10px;">
+  <div class="table-responsive">
+    <table id="table2" class="standAlone table table-striped table-bordered" style="width:100%">
+      <thead>
+        <tr>
+          <th>Cost by Order Count</th>
+          <th>CF Basic</th>
+          <th>CF Standard</th>
+          <th>CF Advanced</th>
+          <th>AmmoReady</th>
+          <th>Gearfire Pro</th>
+          <th>Gearfire Essentials</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>0 - 100 Orders</td>
+          <td>$99</td>
+          <td>$199</td>
+          <td>$599</td>
+          <td>$99</td>
+          <td>$249</td>
+          <td>$150</td>
+        </tr>
+        <tr>
+          <td>101 - 200 Orders</td>
+          <td>$99</td>
+          <td>$159</td>
+          <td>$599</td>
+          <td>$179</td>
+          <td>$249</td>
+          <td>$150</td>
+        </tr>
+        <tr>
+          <td>201 - 300 Orders</td>
+          <td>$99</td>
+          <td>$159</td>
+          <td>$599</td>
+          <td>$239</td>
+          <td>$249</td>
+          <td>$150</td>
+        </tr>
+
+        <tr>
+          <td>301 - 400 Orders</td>
+          <td>$99</td>
+          <td>$159</td>
+          <td>$599</td>
+          <td>$279</td>
+          <td>$249</td>
+          <td>$150</td>
+        </tr>
+        <tr>
+          <td>401 - 500 Orders</td>
+          <td>$99</td>
+          <td>$159</td>
+          <td>$599</td>
+          <td>$299</td>
+          <td>$249</td>
+          <td>$150</td>
+        </tr>
+        <tr>
+          <td>501 - 1000 Orders</td>
+          <td>$99</td>
+          <td>$159</td>
+          <td>$599</td>
+          <td>$499</td>
+          <td>$249</td>
+          <td>$150</td>
+        </tr>
+
+        <tr>
+          <td>1000 - 2500 Orders</td>
+          <td>$99</td>
+          <td>$159</td>
+          <td>$599</td>
+          <td>$999</td>
+          <td>$249</td>
+          <td>$150</td>
+        </tr>
+        <tr>
+          <td>2500+ Orders</td>
+          <td>$99</td>
+          <td>$159</td>
+          <td>$599</td>
+          <td><strong>$$$$</strong></td>
+          <td>$249</td>
+          <td>$150</td>
+        </tr>
+        
+        
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- table 3 -->
+
+<div class="container-fluid" style="margin-top:10px;">
+  <div class="table-responsive">
+    <table id="table3" class="standAlone table table-striped table-bordered" style="width:100%">
+    
+      <thead>
+        <tr>
+          <th>Features</th>
+          <th>CF Basic</th>
+          <th>CF Standard</th>
+          <th>CF Advanced</th>
+          <th>AmmoReady</th>
+          <th>Gearfire Pro</th>
+          <th>Gearfire Essentials</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Themes | Templates</td>
+          <td>14</td>
+          <td>14</td>
+          <td>Fully Customizable</td>
+          <td>1</td>
+          <td><strong>?</strong></td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>SSL Encryption</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+        </tr>
+        <tr>
+          <td>Mobile Optimization</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>SEO Management</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>CSV Inventory Upload</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>360° Product Images</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Electronic Gift Cards</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Promotions</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td>?</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Custom Code</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>News Letter Registration</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Contact Form</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Live Chat</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Google Analytics</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+        </tr>
+        
+        <tr>
+          <td>Product Variations</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Back In Stock Notifications</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td>$19 Per Month</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+
+        <tr>
+          <td>Abandoned Cart</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td>$19 Per Month</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Subscriptions</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Loyalty Programs</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>MAP Policy Management</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+        
+        <tr>
+          <td>Membership Management</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Donation Management</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Facility Management</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Event Management</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Reservations/Bookings</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Waivers</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Automated Ordering</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Automated Fulfillment</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Form Builder</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Custom Fields</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Manufacturer Rebates</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Product Facets</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Query Builder</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Blogs</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Electronic Invoicing</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Advanced Pricing Structures</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Advanced Promotion Engine</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Bring Your Own Design</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+        
+        
+        
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- table 4 -->
+<div class="container-fluid" style="margin-top:30px;">
+  <div class="table-responsive">
+    <table id="table4" class="standAlone table table-striped table-bordered" style="width:100%">
+      <thead>
+        <tr>
+          <th>System Integrations</th>
+          <th>CF Basic</th>
+          <th>CF Standard</th>
+          <th>CF Advance</th>
+          <th>AmmoReady</th>
+          <th>Gearfire Pro</th>
+          <th>Gearfire Essentials</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td>coreSTORE</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>EasyPost</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>TaxJar</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>No Fraud</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Credova</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td>$29 Per Month</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Firearms Legal Protection</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Sezzle</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- table 5 -->
+
+<div class="container-fluid" style="margin-top:10px;">
+  <div class="table-responsive">
+    <table id="table5" class="standAlone table table-striped table-bordered" style="width:100%">
+      <thead>
+        <tr>
+          <th>Marketplace Integrations</th>
+          <th>CF Basic</th>
+          <th>CF Standard</th>
+          <th>CF Advance</th>
+          <th>AmmoReady</th>
+          <th>Gearfire Pro</th>
+          <th>Gearfire Essentials</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td>GunBroker</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td>$29 Per Month</td>
+          <td>?</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Gun.Deals</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td>$29 Per Month</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        
+        <tr>
+          <td>WikiArms</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td>$29 Per Month</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        
+        <tr>
+          <td>AmmoSeek</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td>$29 Per Month</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        
+        <tr>
+          <td>Google Merchant Center</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td>$29 Per Month</td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+
+        <tr>
+          <td>Guns.com</td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-check-circle check-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+          <td><i class="fas fa-times-circle x-icon"></i></td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+<script>
+  $(document).ready(function() {
+      // DataTable initialization
+      $('#table-with-pagination').DataTable({
+          searching: false,
+          paging: true,
+          info: false,
+          dom: 'tip',
+          ordering: false
+      });
+  
+      // Function to set width of first th in the first table based on content
+      function setMatchingWidth() {
+          $('#table1 thead th').each(function(index) {
+              var width = $(this).width();
+              $('#table2 thead th:eq(' + index + ')').width(width);
+              $('#table3 thead th:eq(' + index + ')').width(width);
+              $('#table4 thead th:eq(' + index + ')').width(width);
+              $('#table5 thead th:eq(' + index + ')').width(width);
+          });
+      }
+  
+      // Call the function when the document is ready and when it's resized
+      $(window).on('load resize', setMatchingWidth);
+  });
+</script>

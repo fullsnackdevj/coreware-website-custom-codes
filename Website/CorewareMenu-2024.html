@@ -6,8 +6,6 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-<!-- custom css for mega-menu / mong / starts here -->
-
 <style>
   *,
   *::before,
@@ -23,6 +21,13 @@
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
   }
+  .title {
+    margin-bottom: .5rem !important;
+  }
+
+  .bt-8 {
+    margin-top: 0.3rem;
+}
 
   .bigTexts {
     color: #136d6b !important;
@@ -52,18 +57,16 @@
     margin: 0;
 }
   
-  .title {
-    margin-bottom: 1rem !important;
-  }
+  
 
   body {
-    font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    overflow-x: hidden;
-    color: #121212;
-    background: #fafafa;
+    font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    overflow-x: hidden !important;
+    color: #121212 !important;
+    background: #fafafa !important;
   }
 
   a,
@@ -98,11 +101,11 @@
   }
 
   .container {
-    max-width: 1185px;
-    width: 100%;
-    height: auto;
-    padding: 0 2rem;
-    margin: 0 auto;
+    max-width: 1185px  !important;
+    width: 100% !important;
+    height: auto !important;
+    padding: 0 2rem !important;
+    margin: 0 auto !important;
   }
 
   @media only screen and (max-width: 992px) {
@@ -135,7 +138,7 @@
     left: 0;
     width: 100%;
     height: auto;
-    padding: 1rem 0;
+    padding: 1rem 0 !important;
     margin: 0 auto;
     z-index: 999;
     border-bottom: 1px solid #0e6e6c;
@@ -710,8 +713,6 @@
 
 </style>
 
-<!-- custom css for mega-menu / mong / ends here -->
-
 
 <head>
     <base href="https://corebacco.com/">
@@ -736,7 +737,7 @@
             </div>
             <ul class="menu-section">
               <li class="menu-item-has-children" id="industry_menu">
-                <a href="#">Industries <i class="fas fa-chevron-down"></i></a>
+                <a>Industries <i class="fas fa-chevron-down"></i></a>
                 <div class="menu-subs menu-mega menu-column-4">
                   <div class="list-item">
                     <h4 class="title">Shooting Sports</h4>
@@ -757,7 +758,7 @@
                         <li><a href="outdoorsports-distributor">Distributor / Wholesaler</a></li>
                     </ul>
                     <br>
-                    <h4 class="title">CBD</h4>
+                    <h4 class="title bt-8">CBD</h4>
                     <ul>
                         <li><a href="cbd-retailer">Retailer</a></li>
                         <li><a href="cbd-manufacturer">Manufacturer</a></li>
@@ -771,40 +772,35 @@
                         <li><a href="tobacco-manufacturer">Manufacturer</a></li>
                         <li><a href="tobacco-distributor">Distributor / Wholesaler</a></li>
                     </ul>
+                    <br>
   
                     <div class="list-item">
                       <!-- <h4 class="title"><a href="https://www.youtube.com/"></a>Pawn Shop</a></h4> -->
                       <ul>
                         <li><a class="bigTexts" href="pawn">Pawn Shop
                           </a></li>
-                      </ul>
-                    </div>
-  
-                    <div class="list-item">
-                      <!-- <h4 class="title"><a href="https://www.facebook.com/"></a>General Retail</a></h4> -->
-                      <ul>
-                        <li><a class="bigTexts" href="general-retail">General Retail
+                          <li><a class="bigTexts bt-8" href="general-retail">General Retail
                           </a></li>
                       </ul>
                     </div>
+  
+
                   </div>
   
   
                   <div class="list-item">
                     <h4 class="title">Featured</h4>
                     <div class="image-content">
-                      <img
-                        src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/58JTM33RvepsZ93YclmX/media/66a7c0cb9d8a39b04e70b3b9.jpeg?crop=21:16,smart&width=420&dpr=2"
-                        class="responsive" alt="Shop Product">
-                      <a href="#">Coreware to Showcase Innovative Solutions at NASGW Expo, October 15-18, 2024 in Kansas City, Missouri</a>
-                      <small>Learn how our innovative solutions can enhance efficiency and sales in the shooting sports industry. Visit our booth for live demonstrations and expert consultations.</small>
+                      <a href="events#calendar-8a016a56-aa68-4ced-86e0-1c391b74200b-event-m3sd7v91" class="responsive" alt="Shop Product"><img src="https://storage.googleapis.com/msgsndr/58JTM33RvepsZ93YclmX/media/674d784700da0cdb43056a88.webp"></a>
+                      <a href="events#calendar-8a016a56-aa68-4ced-86e0-1c391b74200b-event-m3sd7v91">Coreware at SHOT Show 2024: Redefining Shooting Sports Solutions</a>
+                      <small>Learn what Coreware has in store at SHOT Show 2024 – don’t miss out! Explore game-changing solutions that elevate your business.</small>
                     </div>
   
                   </div>
                 </div>
               </li>
               <li class="menu-item-has-children">
-                <a href="#">Solutions <i class="fas fa-chevron-down"></i></a>
+                <a>Solutions <i class="fas fa-chevron-down"></i></a>
                 <div class="menu-subs menu-mega menu-column-4">
                   <div class="list-item">
                     <h4 class="title">Solutions</h4>
@@ -824,8 +820,8 @@
                   <div class="list-item">
                     <h4 class="title">Hardware</h4>
                     <ul>
-                      <li><a href="esl">Electronic Shelf Tags (ESL)</a></li>
-                      <li><a href="pos-devices">Point-of-sale devices</a></li>
+                      <li><a href="electronic-shelf-labels">Electronic Shelf Labels</a></li>
+                      <li><a href="point-of-sale-devices">Point-of-sale Devices</a></li>
                       <li><a href="credit-card-terminals">Credit Card Terminals </a></li>
                       <li><a href="barcode-scanners">Barcode Scanners &amp; Printers</a></li>
                       <li><a href="receipt-printers-cash-drawers">Receipt Printers &amp; Cash Drawers</a></li>
@@ -843,18 +839,16 @@
                   <div class="list-item">
                     <h4 class="title">Featured</h4>
                     <div class="image-content">
-                      <img
-                        src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/58JTM33RvepsZ93YclmX/media/66a7c0cb9d8a39b04e70b3b9.jpeg?crop=21:16,smart&width=420&dpr=2"
-                        class="responsive" alt="Shop Product">
-                      <a href="#">Coreware to Showcase Innovative Solutions at NASGW Expo, October 15-18, 2024 in Kansas City, Missouri</a>
-                      <small>Learn how our innovative solutions can enhance efficiency and sales in the shooting sports industry. Visit our booth for live demonstrations and expert consultations.</small>
+                      <a href="events#calendar-8a016a56-aa68-4ced-86e0-1c391b74200b-event-m3sd7v91" class="responsive" alt="Shop Product"><img src="https://storage.googleapis.com/msgsndr/58JTM33RvepsZ93YclmX/media/674d784700da0cdb43056a88.webp"></a>
+                      <a href="events#calendar-8a016a56-aa68-4ced-86e0-1c391b74200b-event-m3sd7v91">Coreware at SHOT Show 2024: Redefining Shooting Sports Solutions</a>
+                      <small>Learn what Coreware has in store at SHOT Show 2024 – don’t miss out! Explore game-changing solutions that elevate your business.</small>
                     </div>
   
                   </div>
                 </div>
               </li>
               <li class="menu-item-has-children">
-                <a href="#">Explore <i class="fas fa-chevron-down"></i></a>
+                <a>Explore <i class="fas fa-chevron-down"></i></a>
                 <div class="menu-subs menu-column-1">
                   <ul>
                     <li><a href="about-us">About Us</a></li>
@@ -867,12 +861,12 @@
               </li>
               <li><a href="pricing">Pricing</a></li>
               <li class="menu-item-has-children">
-                <a href="#">Customer Care <i class="fas fa-chevron-down"></i></a>
+                <a>Customer Care <i class="fas fa-chevron-down"></i></a>
                 <div class="menu-subs menu-column-1">
                   <ul>
                     <li><a href="https://care.coreware.com/ 
                       " target="_blank" >Help Center</a></li>
-                    <li><a href="https://coreu.coreware.com/" target="_blank" >Core University</a></li>
+                    <li><a href="https://coreu.coreware.com/" target="_blank" >CoreU</a></li>
 
                   </ul>
                 </div>
